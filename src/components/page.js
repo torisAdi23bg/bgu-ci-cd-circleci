@@ -16,7 +16,7 @@ class Page extends Component {
 
     let pokemons = displayedPokemons.map(pokemon => {
       return (
-        <div className="col-lg-2" key={pokemon.id}>
+        <div className="col-lg-3" key={pokemon.id}>
           <Pokemon pokemon={pokemon} />
         </div>
       )
