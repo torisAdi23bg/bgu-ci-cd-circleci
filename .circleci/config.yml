@@ -23,7 +23,7 @@ jobs:
          - run: git config --local user.email "ofirattia@gmail.com"
          - run: git add .
          - run: git commit -m "create release and deploy [ci skip]"
-         - run: git push origin master
+         - run: git push
 
 workflows:
   build-project-workflow:
