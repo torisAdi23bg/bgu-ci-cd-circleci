@@ -19,8 +19,8 @@ jobs:
          - run: npm run eslint
          - run: npm run test
          - run: npm run build
-         - run: git config --local user.name "ofirattia"
-         - run: git config --local user.email "ofirattia@gmail.com"
+         - run: git config --local user.name "torisAdi23bg"
+         - run: git config --local user.email "toris@post.bgu.ac.il"
          - run: git add .
          - run: git commit -m "create release and deploy [ci skip]"
          - run: git push
